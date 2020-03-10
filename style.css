@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body{
+        width: 60%;
+        margin: auto;
+        background-image: url('https://www.ilghirigorobottega.com/wp-content/uploads/2016/06/slide-business-background.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top right;
+}
+header h1 {
+    margin-top: 50px;
+    display: inline-block;
+    color: #ca3737;
+    font-family: 'Myriad Pro SemiExt'
+}
+
+header{
+    border-bottom: #ededed solid 1.5px;
+}
+
+header img {
+    vertical-align: middle;
+}
+
+button {
+    width: 65px;
+    color: #ca3737;
+}
+.pulsanti {
+    margin-top: 30px;
+}
+
+#da_leggere {
+    margin-top: 20px;
+    border-bottom: #ededed solid 1.5px;
+}
+#da_leggere h2 {
+    display: inline-block;
+    padding-bottom: 30px;
+    font-weight: lighter;
+}
+
+#da_leggere #hai {
+    margin-right: 5px;
+}
+#da_leggere #email {
+    margin-left: 5px;
+}
+
+
+#cerchio{ /* contenitore del numero di email da leggere */
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: darkorange;
+    border-radius: 50%;
+    padding-top: 10px;
+    padding-left: 5px;
+    color: white;
+}
+
+#lista_mail {
+    margin-top: 35px;
+}
+
+.riga{
+    background-color: #edededed;
+    padding: 7px;
+    border: 0.2px solid grey;
+}
+
+.riga_non_letta{
+    background-color: rgba(209, 237, 242, 0.7);
+    padding: 7px;
+    border: 0.2px solid grey;
+}
+
+.contenuto{ /* rende più chiara la scritta */
+    display: inline-block;
+    color: grey;
+}
+
+.ogg{ /* oggetto mail in grassetto */
+    color: black;
+}
+
+footer p{
+    background-color: #ca3737;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    margin-top: 120px;
+    font-size: 10px;
+}
